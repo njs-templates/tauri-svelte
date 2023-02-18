@@ -1,54 +1,69 @@
-<script>
-	import Greet from "$lib/Greet.svelte";
+<script lang="ts">
+	// TODO: Delete this boilerplate.
+
+	import HelloWorld from "$lib/components/HelloWorld.svelte";
 </script>
 
-<h1>Welcome to Tauri!</h1>
+<main>
+	<div class="main-content">
+		<a
+			href="https://vitejs.dev"
+			target="_blank"
+			rel="noreferrer"
+		>
+			<img
+				src="/vite.svg"
+				class="logo"
+				alt="Vite logo"
+			/>
+		</a>
+		<a
+			href="https://svelte.dev/"
+			target="_blank"
+			rel="noreferrer"
+		>
+			<img
+				src="/svelte.svg"
+				class="logo svelte"
+				alt="Svelte logo"
+			/>
+		</a>
+		<a
+			href="https://www.typescriptlang.org/"
+			target="_blank"
+			rel="noreferrer"
+		>
+			<img
+				src="/typescript.svg"
+				class="logo ts"
+				alt="TypeScript logo"
+			/>
+		</a>
+	</div>
+	<HelloWorld msg="Vite + Svelte Kit + TypeScript" />
+</main>
 
-<div class="row">
-	<a
-		href="https://vitejs.dev"
-		target="_blank"
-	>
-		<img
-			src="/vite.svg"
-			class="logo vite"
-			alt="Vite Logo"
-		/>
-	</a>
-	<a
-		href="https://tauri.app"
-		target="_blank"
-	>
-		<img
-			src="/tauri.svg"
-			class="logo tauri"
-			alt="Tauri Logo"
-		/>
-	</a>
-	<a
-		href="https://kit.svelte.dev"
-		target="_blank"
-	>
-		<img
-			src="/svelte.svg"
-			class="logo svelte"
-			alt="Svelte Logo"
-		/>
-	</a>
-</div>
+<style scoped>
+	.main-content {
+		@apply flex place-content-center;
+		margin: 0 auto;
+	}
 
-<p>Click on the Tauri, Vite, and Svelte logos to learn more.</p>
+	.logo {
+		height: 10em;
+		padding: 1.5em;
+		will-change: filter;
+	}
 
-<div class="row">
-	<Greet />
-</div>
-
-<style>
-	.logo.vite:hover {
-		filter: drop-shadow(0 0 2em #747bff);
+	.logo:hover {
+		filter: drop-shadow(0 0 2em #646cffaa);
 	}
 
 	.logo.svelte:hover {
-		filter: drop-shadow(0 0 2em #ff3e00);
+		filter: drop-shadow(0 0 2em #ff3e00aa);
+	}
+
+	.logo.ts:hover {
+		filter: drop-shadow(0 0 2em #3178c6aa);
 	}
 </style>
