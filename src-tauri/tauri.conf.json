@@ -33,7 +33,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.njshockey.dev",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
@@ -59,11 +59,11 @@
     },
     "windows": [
       {
-        "fullscreen": false,
+        "width": 800,
         "height": 600,
-        "resizable": true,
         "title": "tauri-svelte",
-        "width": 800
+        "fullscreen": false,
+        "resizable": true
       }
     ]
   }
