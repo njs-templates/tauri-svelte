@@ -7,14 +7,14 @@
 <main>
 	<div class="main-content">
 		<a
-			href="https://vitejs.dev"
+			href="https://tauri.app/"
 			target="_blank"
 			rel="noreferrer"
 		>
 			<img
-				src="/vite.svg"
+				src="/tauri.svg"
 				class="logo"
-				alt="Vite logo"
+				alt="Tauri logo"
 			/>
 		</a>
 		<a
@@ -40,7 +40,7 @@
 			/>
 		</a>
 	</div>
-	<HelloWorld msg="Vite + Svelte Kit + TypeScript" />
+	<HelloWorld msg="Tauri + Svelte Kit + TypeScript" />
 </main>
 
 <style scoped>

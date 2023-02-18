@@ -28,16 +28,24 @@
 				class="link"
 				href="https://github.com/njs-templates"
 				target="_blank"
-				rel="noreferrer">NJS Templates</a
+				rel="noreferrer">NJS Templates,</a
 			>
-			and
 			<a
 				class="link"
 				href="https://github.com/vitejs/awesome-vite#templates"
 				target="_blank"
 				rel="noreferrer"
 			>
-				Awesome Vite</a
+				Awesome Vite,</a
+			>
+			and
+			<a
+				class="link"
+				href="https://github.com/tauri-apps/awesome-tauri#templates"
+				target="_blank"
+				rel="noreferrer"
+			>
+				Awesome Tauri</a
 			>
 			for more templates.
 		</p>
