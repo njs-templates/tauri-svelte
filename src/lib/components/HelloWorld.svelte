@@ -1,6 +1,15 @@
 <script lang="ts">
 	// TODO: Delete this boilerplate.
 
+	import { invoke } from "@tauri-apps/api/tauri";
+
+	let name = "";
+	let greetMsg = "";
+	async function greet() {
+		// Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
+		greetMsg = await invoke("greet", { name });
+	}
+
 	export let msg: string;
 	let count = 0;
 </script>
@@ -17,6 +26,21 @@
 		>
 			count is {count}
 		</button>
+		<div class="row">
+			<input
+				id="greet-input"
+				class="input input-bordered mr-2"
+				placeholder="Enter a name..."
+				bind:value={name}
+			/>
+			<button
+				class="btn btn-primary"
+				on:click={greet}
+			>
+				Greet
+			</button>
+			<p>{greetMsg}</p>
+		</div>
 		<p>
 			This page works with any Daisy UI theme! Try it out and change
 			<code>daisyui.themes</code> in <code>tailwind.config.cjs</code>.
