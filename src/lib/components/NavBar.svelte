@@ -7,8 +7,9 @@ const otherHref = "/other";
 </script>
 
 <div
+	role="tablist"
 	id="nav"
-	class="tabs justify-center pb-6"
+	class="tabs tabs-bordered justify-center pb-6"
 >
 	<NavLink
 		label="Home"

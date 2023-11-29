@@ -24,7 +24,7 @@ let count = 0;
 				count++;
 			}}
 		>
-			count is {count}
+			Count is {count}
 		</button>
 		<div class="row">
 			<input
