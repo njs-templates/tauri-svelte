@@ -1,14 +1,14 @@
 {
+	"package": {
+		"productName": "tauri-svelte",
+		"version": "1.0.0"
+	},
 	"build": {
 		"beforeDevCommand": "yarn dev",
 		"beforeBuildCommand": "yarn build",
 		"devPath": "http://localhost:1420",
 		"distDir": "../build",
 		"withGlobalTauri": false
-	},
-	"package": {
-		"productName": "tauri-svelte",
-		"version": "0.0.0"
 	},
 	"tauri": {
 		"allowlist": {
