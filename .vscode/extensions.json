@@ -1,7 +1,17 @@
 {
 	"recommendations": [
-		"svelte.svelte-vscode",
 		"tauri-apps.tauri-vscode",
-		"rust-lang.rust-analyzer"
+		"rust-lang.rust-analyzer",
+		"svelte.svelte-vscode",
+		"ms-vscode.vscode-typescript-next",
+		"bradlc.vscode-tailwindcss",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"davidanson.vscode-markdownlint",
+		"streetsidesoftware.code-spell-checker",
+		"gruntfuggly.todo-tree",
+		"donjayamanne.githistory",
+		"mhutchie.git-graph",
+		"editorconfig.editorconfig"
 	]
 }
