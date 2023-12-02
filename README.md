@@ -44,7 +44,7 @@ You can download this repo as a .zip or clone it with git,
 but a cleaner approach is with [degit](https://github.com/Rich-Harris/degit).
 
 ```bash
-npx degit njs-templates/njs-svelte new-project
+npx degit njs-templates/tauri-svelte new-project
 cd new-project
 yarn
 ```
